@@ -15,7 +15,8 @@
   "license": "ISC",
   "dependencies": {
     "husky": "^7.0.1",
-    "lint-staged": "^11.1.2"
+    "lint-staged": "^11.1.2",
+    "validator": "^13.6.0"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
