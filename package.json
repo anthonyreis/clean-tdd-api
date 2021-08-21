@@ -1,0 +1,29 @@
+{
+  "name": "tdd-clean-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "husky": "^7.0.1",
+    "lint-staged": "^11.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
